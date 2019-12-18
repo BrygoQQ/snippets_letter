@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<table width="${1:100}%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="${2:center}">
+	${0}
+</td></tr>
+</table>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mtable</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

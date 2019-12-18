@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="left" valign="top" width="${4:20}">
+	<table width="${2:10}" border="0" cellspacing="0" cellpadding="0" style="font-size: 0px; line-height: 0px;">
+	<tr><td align="left" valign="middle" height="${8:14}">
+		<img src="img/${1:}" width="${2:10}" height="${3:10}" alt="" border="0" style="display: block;"/>
+	</td></tr>
+	</table>
+</td><td align="left" valign="middle">
+	<div style="line-height: ${8:14}px;">
+		<span style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: ${7:12}px; line-height: ${8:14}px; color: #${6:000000};">
+			${5:lorem}
+		</span>
+	</div>
+</td></tr>
+</table>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mbull</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

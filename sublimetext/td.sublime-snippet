@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="center" valign="top" style="font-size: 0px; line-height: 0px;">
+
+	<!-- item -->
+	<div style="display: inline-block; vertical-align: top; width: ${1:300}px; font-size: 14px; line-height: 18px;">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+	<tr><td align="center" valign="top" style="font-size: 14px; line-height: 18px;">
+
+		{{block1}}
+
+	</td></tr>
+	</table></div>
+	<!-- item END-->
+
+	<!-- item -->
+	<!--[if (gte mso 9)|(IE)]>
+	</td><td valign="top" width="${1:300}">
+	<![endif]-->
+	<div style="display: inline-block; vertical-align: top; width: ${1:300}px; font-size: 14px; line-height: 18px;">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+	<tr><td align="center" valign="top" style="font-size: 14px; line-height: 18px;">
+
+		{{block2}}
+		
+	</td></tr>
+	</table></div>
+	<!-- item END-->
+
+</td></tr>
+</table>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mtd</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

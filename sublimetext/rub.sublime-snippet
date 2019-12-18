@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<span style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: ${6:12}px; color: #${5:000000};"><img src="img/${1:}" width="${2:10}" height="${3:10}" alt="${4:}" border="0" style="display: inline;"/></span>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mrub</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

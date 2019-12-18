@@ -1,0 +1,41 @@
+<snippet>
+	<content><![CDATA[
+<table width="${1:100}%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="center" valign="top" style="font-size: 0px;line-height: 0px;"><!-- 
+
+Item --><div style="display: inline-block; vertical-align: top; width:${2:300}px; font-size: 14px; line-height: 18px;">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
+		<tr><td align="center" valign="top" style="font-size: 14px; line-height: 18px;">
+			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+				<tr><td align="center" valign="top">
+					{{block1}}
+				</td></tr>
+			</table>
+			
+		</td></tr>
+	</table></div><!-- Item END--><!--[if (gte mso 9)|(IE)]>
+	</td>
+	<td valign="top" width="${2:300}">
+<![endif]--><!-- 
+
+Item --><div style="display: inline-block; vertical-align: top; width:${2:300}px; font-size: 14px; line-height: 18px;">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
+		<tr><td align="center" valign="top" style="font-size: 14px; line-height: 18px;">
+			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+				<tr><td align="center" valign="top">
+					{{block2}}
+				</td></tr>
+			</table>
+			
+		</td></tr>
+	</table></div><!-- Item END--></td>
+</tr>
+</table>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mttd</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

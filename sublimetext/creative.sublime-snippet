@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<img src="img/${1:}" width="${2:600}" alt="" border="0" style="display: block; width: 100%; max-width: ${2:600}px;"/>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mcreative</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

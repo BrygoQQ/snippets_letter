@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div style="line-height: ${4:14}px;">
+	<a href="#" target="_blank" style="font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: ${3:12}px; line-height: ${4:14}px; color: #${2:000000}; text-decoration: none;">
+		${1:lorem}
+	</a>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mlink</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

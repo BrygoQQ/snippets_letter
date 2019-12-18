@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td align="center" valign="top" height="${4:300}" bgcolor="#${2:ffffff}" background="img/${1:}" style="background-color: #${2:ffffff}; background-image: url(img/${1:}); background-position: center top;">
+<!--[if gte mso 9]>
+<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:${3:600}px;height:${4:300}px;">
+<v:fill type="tile" src="img/${1:}" color="#${2:ffffff}" />
+<v:textbox inset="0,0,0,0">
+<![endif]-->
+<div>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td align="center" valign="top">
+	
+</td></tr>
+</table>
+</div>
+<!--[if gte mso 9]>
+</v:textbox>
+</v:rect>
+<![endif]-->
+</td></tr>
+</table>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mbg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
