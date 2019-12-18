@@ -1,0 +1,313 @@
+{
+	// Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	
+	"letter_bg": {
+	 	"prefix": "mbg",
+	 	"body": [
+			"<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">",
+			"<tr><td align=\"center\" valign=\"top\" height=\"${4:300}\" bgcolor=\"#${2:ffffff}\" background=\"img/$1\" style=\"background-color: #${2:ffffff}; background-image: url(img/$1); background-position: center top;\">",
+			"<!--[if gte mso 9]>",
+			"<v:rect xmlns:v=\"urn:schemas-microsoft-com:vml\" fill=\"true\" stroke=\"false\" style=\"width:${3:600}px;height:${4:300}px;\">",
+			"<v:fill type=\"tile\" src=\"img/$1\" color=\"#${2:ffffff}\" />",
+			"<v:textbox inset=\"0,0,0,0\">",
+			"<![endif]-->",
+			"<div>",
+			"<table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\">",
+			"<tr><td align=\"center\" valign=\"top\">",
+			" ",
+			"</td></tr>",
+			"</table>",
+			"</div>",
+			"<!--[if gte mso 9]>",
+			"</v:textbox>",
+			"</v:rect>",
+			"<![endif]-->",
+			"</td></tr>",
+			"</table>",
+	 	],
+	 	"description": "Таблица с бекграундом"
+	},
+
+	"letter_border": {
+		"prefix": "mborder",
+		"body": [
+			"border$1-width: ${2:1}px; border$1-style: ${3:solid}; border$1-color: #${4:000000}"
+		],
+		"description": "Стиль бордера"
+    },
+
+	"letter_bull": {
+		"prefix": "mbull",
+		"body": [
+			"<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">",
+			"<tr><td align=\"left\" valign=\"top\" width=\"${4:20}\">",
+			"	<table width=\"${2:10}\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"font-size: 0px; line-height: 0px;\">",
+			"	<tr><td align=\"left\" valign=\"middle\" height=\"${8:14}\">",
+			"		<img src=\"img/$1\" width=\"${2:10}\" height=\"${3:10}\" alt=\"\" border=\"0\" style=\"display: block;\"/>",
+			"	</td></tr>",
+			"	</table>",
+			"</td><td align=\"left\" valign=\"middle\">",
+			"	<div style=\"line-height: ${8:14}px;\">",
+			"		<span style=\"font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: ${7:12}px; line-height: ${8:14}px; color: #${6:000000};\">",
+			"			${5:lorem}",
+			"		</span>",
+			"	</div>",
+			"</td></tr>",
+			"</table>"
+		],
+		"description": "Таблица с булетом"
+	},
+
+	"letter_button": {
+		"prefix": "mbtn",
+		"body": [
+			"<table width=\"${2:300}\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">",
+			"<tr><td align=\"center\">",
+			"	<a href=\"#\" target=\"_blank\" style=\"font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: ${6:14}px; color: #${5:000000};\">",
+			"	<img src=\"img/$1\" width=\"${2:300}\" height=\"${3:50}\" alt=\"${4:}\" border=\"0\" style=\"display: block;\" /></a>",
+			"</td></tr>",
+			"</table>",
+		],
+		"description": "Таблица с кнопкой"
+	},
+
+	"letter_content_bg": {
+		"prefix": "mcbg",
+		"body": [
+			"<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">",
+			"<tr><td align=\"center\" valign=\"top\" bgcolor=\"#${2:ffffff}\" background=\"img/$1\" style=\"background-color: #${2:ffffff}; background-image: url(img/$1); background-position: center top;\">",
+			"<!--[if gte mso 9]>",
+			"<v:rect xmlns:v=\"urn:schemas-microsoft-com:vml\" fill=\"true\" stroke=\"false\" style=\"width:${3:600}px;\">",
+			"<v:fill type=\"tile\" src=\"img/$1\" color=\"#${2:ffffff}\" />",
+			"<v:textbox style=\"mso-fit-shape-to-text:true\" inset=\"0,0,0,0\">",
+			"<![endif]-->",
+			"<div>",
+			"<table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\">",
+			"<tr><td align=\"center\" valign=\"top\">",
+			"	",
+			"</td></tr>",
+			"</table>",
+			"</div>",
+			"<!--[if gte mso 9]>",
+			"</v:textbox>",
+			"</v:rect>",
+			"<![endif]-->",
+			"</td></tr>",
+			"</table>",
+		],
+		"description": "Таблица с бекграундом контент"
+	},
+
+	"letter_creative": {
+		"prefix": "mcreative",
+		"body": [
+			"<img src=\"img/$1\" width=\"${2:600}\" alt=\"\" border=\"0\" style=\"display: block; width: 100%; max-width: ${2:600}px;\"/>"
+		],
+		"description": "Креатив на 600px"
+	},
+
+	"letter_image": {
+		"prefix": "mimg",
+		"body": [
+			"<img src=\"img/$1\" width=\"${2:300}\" height=\"${3:300}\" alt=\"\" border=\"0\" style=\"display: block;\"/>"
+		],
+		"description": "Изображение"
+	},
+
+	"letter_link": {
+		"prefix": "mlink",
+		"body": [
+			"<div style=\"line-height: ${4:14}px;\">",
+			"	<a href=\"#\" target=\"_blank\" style=\"font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: ${3:12}px; line-height: ${4:14}px; color: #${2:000000}; text-decoration: none;\">",
+			"		${1:lorem}",
+			"	</a>",
+			"</div>"
+		],
+		"description": "Ссылка"
+	},
+
+	"letter_link_creative": {
+		"prefix": "macreative",
+		"body": [
+			"<table width=\"${2:600}\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width: 100%; max-width: ${2:600}px;\">",
+			"<tr><td align=\"center\">",
+			"	<a href=\"#\" target=\"_blank\" style=\"font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: ${5:14}px; color: #${4:000000};\">",
+			"	<img src=\"img/$1\" width=\"${2:600}\" alt=\"$3\" border=\"0\" style=\"display: block; width: 100%; max-width: ${2:600}px;\"/></a>",
+			"</td></tr>",
+			"</table>"
+		],
+		"description": "Ссылка на креатив"
+	},
+
+	"letter_link": {
+		"prefix": "maimg",
+		"body": [
+			"<a href=\"#\" target=\"_blank\">",
+			"<img src=\"img/$1\" width=\"${2:300}\" height=\"${3:300}\" alt=\"\" border=\"0\" style=\"display: block;\"/></a>"
+		],
+		"description": "Ссылка на изображение"
+	},
+
+	"letter_link_alt": {
+		"prefix": "maimgalt",
+		"body": [
+			"<a href=\"#\" target=\"_blank\" style=\"color: #${5:000000}; font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: ${6:12}px;\">",
+			"<img src=\"img/$1\" width=\"${2:300}\" height=\"${3:300}\" alt=\"${4:alt}\" border=\"0\" style=\"display: block;\"/></a>"
+
+		],
+		"description": "Ссылка на изображение c alt"
+	},
+
+	"letter_padding": {
+		"prefix": "mpd",
+		"body": [
+			"<!-- padding --><div style=\"height: ${1:10}px; line-height: ${1:10}px; font-size: 8px;\">&nbsp;</div>"
+		],
+		"description": "Отступ"
+	},
+
+	"letter_rtl": {
+		"prefix": "mrtl",
+		"body": [
+			"<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" dir=\"rtl\">",
+			"<tr><td align=\"center\" valign=\"top\" style=\"font-size: 0px; line-height: 0px;\">",
+			" ",
+			"	<!-- item -->",
+			"	<div style=\"display: inline-block; vertical-align: top; width: ${1:300}px; font-size: 14px; line-height: 18px;\">",
+			"	<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" dir=\"ltr\" style=\"border-collapse: collapse;\">",
+			"	<tr><td align=\"center\" valign=\"top\" style=\"font-size: 14px; line-height: 18px;\">",
+			" ",
+			"		{{block1}}"
+			" ",
+			"	</td></tr>",
+			"	</table></div>",
+			"	<!-- item END-->",
+			" ",
+			"	<!-- item -->",
+			"	<!--[if (gte mso 9)|(IE)]>",
+			"	</td><td valign=\"top\" width=\"${1:300}\">",
+			"	<![endif]-->",
+			"	<div style=\"display: inline-block; vertical-align: top; width: ${1:300}px; font-size: 14px; line-height: 18px;\">",
+			"	<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" dir=\"ltr\" style=\"border-collapse: collapse;\">",
+			"	<tr><td align=\"center\" valign=\"top\" style=\"font-size: 14px; line-height: 18px;\">",
+			" ",
+			"		{{block2}}",
+			" ",
+			"	</td></tr>",
+			"	</table></div>",
+			"	<!-- item END-->",
+			" ",
+			"</td></tr>",
+			"</table>"
+		],
+		"description": "Обратное перестроение"
+	},
+
+	"letter_rubl": {
+		"prefix": "mrub",
+		"body": [
+			"<span style=\"font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: ${6:12}px; color: #${5:000000};\"><img src=\"img/$1\" width=\"${2:10}\" height=\"${3:10}\" alt=\"$4\" border=\"0\" style=\"display: inline;\"/></span>"
+		],
+		"description": "Изображение в тексте"
+	},
+
+	"letter_sep": {
+		"prefix": "msep",
+		"body": [
+			"&#8203;"
+		],
+		"description": "Разделитель даты, телефона"
+	},
+
+	"letter_table": {
+		"prefix": "mtable",
+		"body": [
+			"<table width=\"${1:100}%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">",
+			"<tr><td align=\"${2:center}\">",
+			"	${0}",
+			"</td></tr>",
+			"</table>",
+		],
+		"description": "Таблица"
+	},
+
+	"letter_td": {
+		"prefix": "mtd",
+		"body": [
+			"<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">",
+			"<tr><td align=\"center\" valign=\"top\" style=\"font-size: 0px; line-height: 0px;\">",
+			" ",
+			"	<!-- item -->",
+			"	<div style=\"display: inline-block; vertical-align: top; width: ${1:300}px; font-size: 14px; line-height: 18px;\">",
+			"	<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"border-collapse: collapse;\">",
+			"	<tr><td align=\"center\" valign=\"top\" style=\"font-size: 14px; line-height: 18px;\">",
+			" ",
+			"		{{block1}}",
+			" ",
+			"	</td></tr>",
+			"	</table></div>",
+			"	<!-- item END-->",
+			" ",
+			"	<!-- item -->",
+			"	<!--[if (gte mso 9)|(IE)]>",
+			"	</td><td valign=\"top\" width=\"${1:300}\">",
+			"	<![endif]-->",
+			"	<div style=\"display: inline-block; vertical-align: top; width: ${1:300}px; font-size: 14px; line-height: 18px;\">",
+			"	<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"border-collapse: collapse;\">",
+			"	<tr><td align=\"center\" valign=\"top\" style=\"font-size: 14px; line-height: 18px;\">",
+			" ",
+			"		{{block2}}",
+			" ",		
+			"	</td></tr>",
+			"	</table></div>",
+			"	<!-- item END-->",
+
+			</td></tr>
+			</table>
+		],
+		"description": "Перестроение"
+	},
+
+	"letter_text": {
+		"prefix": "mtext",
+		"body": [
+			"<div style=\"line-height: ${4:14}px;\">",
+			"	<span style=\"font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: ${3:12}px; line-height: ${4:14}px; color: #${2:000000};\">",
+			"		${1:lorem}",
+			"	</span>",
+			"</div>"
+		],
+		"description": "Текст"
+	},
+
+	"letter_text_creative": {
+		"prefix": "mscreative",
+		"body": [
+			"<span style=\"font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: ${5:14}px; color: #${4:000000};\">",
+			"<img src=\"img/$1\" width=\"${2:600}\" alt=\"$3\" border=\"0\" style=\"display: block; width: 100%; max-width: ${2:600}px;\"/></span>"
+		],
+		"description": "Изображение креатив текстом"
+	},
+
+	"letter_text_img": {
+		"prefix": "msimg",
+		"body": [
+			"<span style=\"font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: ${6:12}px; color: #${5:000000};\">",
+			"<img src=\"img/$1\" width=\"${2:300}\" height=\"${3:300}\" alt=\"${4:}\" border=\"0\" style=\"display: block;\"/></span>"
+		],
+		"description": "Изображение текстом"
+	}
+
+}
